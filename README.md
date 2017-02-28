@@ -1,4 +1,4 @@
-# array-slicer
+# ArraySlicer
 
 A python class for slicing arrays into sub arrays.
 
