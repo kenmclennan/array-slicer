@@ -20,7 +20,7 @@ class TestArraySlicer(unittest.TestCase):
 
     def test_when_n_is_zero_it_returns_empty(self):
         result = self.subject.slice_into(0)
-        self.assertEqual(result,[])
+        self.assertEqual(result, [])
 
     def test_when_n_is_a_negative_integer_it_raises(self):
         self.assertRaises(ValueError,self.subject.slice_into,-1)
